@@ -10106,7 +10106,6 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="U$42" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$45" library="HR_pads" deviceset="HR_PADS" device=""/>
 <part name="RST" library="testpad" deviceset="TPS" device="TP09R"/>
-<part name="A2" library="testpad" deviceset="TPS" device="TP09R"/>
 <part name="U$46" library="microbuilder" deviceset="GND" device=""/>
 <part name="SJ3" library="SparkFun-Retired" deviceset="SOLDERJUMPER" device="NO"/>
 </parts>
@@ -10373,7 +10372,6 @@ very low quiescent current</text>
 </instance>
 <instance part="U$45" gate="G$1" x="129.54" y="-50.8"/>
 <instance part="RST" gate="G$1" x="218.44" y="88.9" rot="R270"/>
-<instance part="A2" gate="G$1" x="121.92" y="86.36" rot="R90"/>
 <instance part="U$46" gate="G$1" x="38.1" y="-40.64">
 <attribute name="VALUE" x="36.576" y="-43.18" size="1.27" layer="96"/>
 </instance>
@@ -10898,14 +10896,6 @@ very low quiescent current</text>
 <label x="160.02" y="35.56" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="A2" class="0">
-<segment>
-<pinref part="MDBT1" gate="G$1" pin="P0.30/AIN6"/>
-<wire x1="137.16" y1="86.36" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
-<label x="134.62" y="86.36" size="1.778" layer="95" rot="R180"/>
-<pinref part="A2" gate="G$1" pin="PP"/>
-</segment>
-</net>
 <net name="VDIV" class="0">
 <segment>
 <pinref part="MDBT1" gate="G$1" pin="P0.29/AIN5"/>
@@ -11128,6 +11118,11 @@ very low quiescent current</text>
 <pinref part="U3" gate="G$1" pin="STAT"/>
 <wire x1="53.34" y1="187.96" x2="55.88" y2="187.96" width="0.1524" layer="91"/>
 <label x="45.72" y="187.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="MDBT1" gate="G$1" pin="P0.30/AIN6"/>
+<wire x1="137.16" y1="86.36" x2="124.46" y2="86.36" width="0.1524" layer="91"/>
+<label x="134.62" y="86.36" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="N$12" class="0">

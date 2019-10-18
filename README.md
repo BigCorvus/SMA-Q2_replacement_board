@@ -6,18 +6,18 @@ Custom replacement board with an nrf52840 module based on the feather board. It 
 The current version snapfits almost perfectly into the LCD frame. Had to file a corner for a fraction of a millimeter.
 
 The BOM is not quite finished yet because I have not setteled on the final component values, but most of them should be straightforward. Just consult the schematc. 
-The dual P-Channel mosfets might be CMLDM8005 TR PBFREE (Digikey 1514-CMLDM8005TRPBFREECT-ND) 
-pushbuttons are LS12T2-T (Digikey 1642-1312-1-ND)
-The supercap is Seiko CPH3225A (728-1127-1-ND) 
-the RTC is Abracon AB-RTCMC-32.768kHz-IBO5-S3 (535-13301-1-ND) 
-The display connectors are 255-3056-1-ND and 255-5667-ND 
-Accelerometer is 828-1081-1-ND (BMA400) 
-Schottky Diodes are 497-7163-1-ND 
-Flash chip is 1970-1011-1-ND 
-LDO is 296-24059-1-ND 
-The BT module is a Raytac MDBT50Q (1597-1678-ND) 
-Watch crystal: 478-5428-1-ND 
-Mosfet for vibrator is DMG1012UW-7DICT-ND
-LED for HR sensor: 1497-1162-1-ND, Opamp: MCP6001T-I/LTCT-ND
+The dual P-Channel mosfets might be CMLDM8005 TR PBFREE (Digikey 1514-CMLDM8005TRPBFREECT-ND). 
+Pushbuttons are LS12T2-T (Digikey 1642-1312-1-ND).
+The supercap is Seiko CPH3225A (728-1127-1-ND). 
+The RTC is Abracon AB-RTCMC-32.768kHz-IBO5-S3 (535-13301-1-ND). 
+The display connectors are 255-3056-1-ND and 255-5667-ND. 
+Accelerometer is 828-1081-1-ND (BMA400). 
+Schottky diodes are 497-7163-1-ND. 
+Flash chip is 1970-1011-1-ND. 
+LDO is 296-24059-1-ND. 
+The BT module is a Raytac MDBT50Q (1597-1678-ND). 
+Watch crystal: 478-5428-1-ND. 
+Mosfet for vibrator is DMG1012UW-7DICT-ND.
+LED for HR sensor: 1497-1162-1-ND, Opamp: MCP6001T-I/LTCT-ND.
 The vibration motor is 8mm in diameter and 2mm high. Can be found on Aliexpress.
  

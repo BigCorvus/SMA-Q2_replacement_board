@@ -22,5 +22,5 @@ LED for HR sensor: 1497-1162-1-ND, Opamp: MCP6001T-I/LTCT-ND.
 The vibration motor is 8mm in diameter and 2mm high. Can be found on Aliexpress.  
   
 Newer version: https://github.com/BigCorvus/SMA-Q2_replacement_board_v2  
-Arduino Firmware: 
+Arduino Firmware: https://github.com/BigCorvus/SMA-Q2-nrf52840-dualMode-firmware
  

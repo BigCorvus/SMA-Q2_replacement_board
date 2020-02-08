@@ -19,5 +19,8 @@ The BT module is a Raytac MDBT50Q (1597-1678-ND).
 Watch crystal: 478-5428-1-ND. 
 Mosfet for vibrator is DMG1012UW-7DICT-ND.
 LED for HR sensor: 1497-1162-1-ND, Opamp: MCP6001T-I/LTCT-ND.
-The vibration motor is 8mm in diameter and 2mm high. Can be found on Aliexpress.
+The vibration motor is 8mm in diameter and 2mm high. Can be found on Aliexpress.  
+  
+Newer version: https://github.com/BigCorvus/SMA-Q2_replacement_board_v2  
+Arduino Firmware: 
  
